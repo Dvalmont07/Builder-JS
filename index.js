@@ -6,15 +6,6 @@ class Server {
         this.timeout = builder.timeout;
         this.ssl = builder.ssl;
     }
-
-    toString() {
-        return `This is my server:/n 
-        Ip: ${this.ip}/n
-        Port: ${this.port}/n
-        Protocol: ${this.protocol}/n
-        Timeout: ${this.timeout}/n
-        Ssl: ${this.ssl}/n `;
-    }
 }
 
 class ServerBuilderX {
